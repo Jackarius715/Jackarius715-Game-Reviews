@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Hollow Knight",
+    "score": 9,
+    "genre": ["Metroidvania","Platformer"],
+    "platform": "PC",
+    "release": 2017,
+    "logo": "images/hollow_knight.png"
+  },
+  {
+    "title": "Celeste",
+    "score": 9,
+    "genre": ["Platformer"],
+    "platform": "Switch",
+    "release": 2018,
+    "logo": "images/celeste.png"
+  },
+  {
+    "title": "Untitled Demo",
+    "score": 6,
+    "genre": ["Indie"],
+    "platform": "PC",
+    "release": 2024,
+    "logo": "images/placeholder.png"
+  }
+]

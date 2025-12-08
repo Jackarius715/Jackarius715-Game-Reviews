@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Your Game Ratings</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Your Game Ratings</h1>
+  <p class="subtitle">Click a logo to spin and reveal the score — filter & sort to explore.</p>
+</header>
+
+<main class="container">
+  <section class="controls" aria-label="Filters and sorting">
+    <div class="control-row">
+      <label for="search">Search</label>
+      <input id="search" type="search" placeholder="Search by title..." />
+    </div>
+
+    <div class="control-row">
+      <label for="genre">Genre</label>
+      <select id="genre">
+        <option value="all">All genres</option>
+      </select>
+
+      <label for="platform">Platform</label>
+      <select id="platform">
+        <option value="all">All platforms</option>
+      </select>
+    </div>
+
+    <div class="control-row">
+      <label for="sort">Sort by</label>
+      <select id="sort">
+        <option value="title-asc">Name A → Z</option>
+        <option value="title-desc">Name Z → A</option>
+        <option value="release-desc">Release (new → old)</option>
+        <option value="release-asc">Release (old → new)</option>
+        <option value="score-desc">Score (high → low)</option>
+        <option value="score-asc">Score (low → high)</option>
+      </select>
+
+      <button id="reset" class="btn">Reset</button>
+    </div>
+  </section>
+
+  <section id="grid" class="grid" aria-live="polite"></section>
+</main>
+
+<footer class="site-footer">
+  <small>Built with ❤️ — edit <code>games.json</code> to add games.</small>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
