@@ -1,14 +1,14 @@
 [
   {
-    "title": "Hollow Knight",
-    "score": 9,
-    "genre": ["Metroidvania","Platformer"],
-    "platform": "PC",
-    "release": 2017,
-    "logo": "images/hollow_knight.png"
+    "title": "Clair Obscur: Expedition 33",
+    "score": 10,
+    "genre": ["RPG",
+    "platform": "Xbox Series X",
+    "release": 2025,
+    "logo": "images/E33.png"
   },
   {
-    "title": "Celeste",
+    "title": "Test 1",
     "score": 9,
     "genre": ["Platformer"],
     "platform": "Switch",
@@ -16,7 +16,7 @@
     "logo": "images/celeste.png"
   },
   {
-    "title": "Untitled Demo",
+    "title": "Test 2",
     "score": 6,
     "genre": ["Indie"],
     "platform": "PC",
