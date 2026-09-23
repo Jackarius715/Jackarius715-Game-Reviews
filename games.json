@@ -21,7 +21,7 @@
     "genre": ["Indie"],
     "platform": "PC",
     "release": 2024,
-    "logo": "images/placeholder.png"
+    "logo": "placeholder.png.jpg"
   },
   {
     "title": "Pokémon Pokopia",
@@ -29,6 +29,7 @@
     "genre": ["Simulation"],
     "platform": "Switch 2",
     "release": 2026,
-    "logo": "images/placeholder.png"
+    "logo": "placeholder.png.jpg"
   }
 ]
+
